@@ -42,5 +42,21 @@
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
+  },
+  "jest": {
+    "roots": ["<rootDir>", "../"],
+    "testMatch": [
+      "**/*.test.js",
+      "**/tests/**/*.test.js",
+      "**/unitaire/**/*.test.js",
+      "**/__tests__/**/*.test.js",
+      "../**/*.test.js",
+      "../../**/*.test.js",
+      "C:/Java/git-examen/**/*.test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleDirectories": ["node_modules", "utils", "tests", "unitaire", "../utils", "../tests"]
   }
 }
