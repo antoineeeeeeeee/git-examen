@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "git-examen",
   "version": "1.0.0",
   "description": "- Antoine GUNET\r - Ali SINCER\r - Léo CROFT",
@@ -20,17 +19,5 @@
   "devDependencies": {
     "jest": "^30.3.0",
     "supertest": "^7.2.2"
-=======
-  "name": "projet-gestionnaire-taches",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "cd backend && npm test",
-    "test:watch": "cd backend && npm run test:watch",
-    "test:coverage": "cd backend && npm run test:coverage",
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
->>>>>>> b184216 (correction des probleme avec test unitaires)
   }
 }
