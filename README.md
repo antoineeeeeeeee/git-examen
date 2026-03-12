@@ -115,6 +115,8 @@ Antoine a développé les **tests End-to-End avec Selenium** permettant de simul
 
 Ces tests permettent de vérifier que **l'application fonctionne correctement du point de vue utilisateur**.
 
+pour tester :
+node tests/e2e/test.js
 ---
 
 ## Léo — Tests d'intégration
